@@ -101,7 +101,7 @@ SwampCooler2560::SwampCooler2560( const SC2560PM& _pm ) :
     m_fan_motor(m_pm.fan_motor),
     m_vent_servo()
 {
-    if (m_pm.isValid())
+    if (m_pm.is_valid())
     {
         m_state->init(*this);
     }

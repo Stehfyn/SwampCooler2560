@@ -82,7 +82,7 @@ public:
         const uint8_t _fan_motor    = 2,
         const uint8_t _vent_servo   = 13);
 
-  inline bool isValid() const { return m_valid; }
+  inline bool is_valid() const { return m_valid; }
 
 private:
     bool m_valid;
