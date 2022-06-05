@@ -4,7 +4,7 @@
 
 A state-managed swamp cooler targeting the [ATmega2560](https://docs.arduino.cc/hardware/mega-2560)
 
-<img src="https://raw.githubusercontent.com/Stehfyn/SwampCooler2560/assets/demo.png">
+<img src="https://raw.githubusercontent.com/Stehfyn/SwampCooler2560/c500ab42bb0f8f0503ba2b2f96ac1333bf7baf19/assets/demo.png">
 
 ## cpe301 final project
 
