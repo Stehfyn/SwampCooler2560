@@ -2,7 +2,7 @@
 
 # SwampCooler2560
 
-A state-managed swamp cooler targeting the [ATmega2560](https://docs.arduino.cc/hardware/mega-2560)
+A state-managed swamp cooler targeting the [Arduino Mega 2560](https://docs.arduino.cc/hardware/mega-2560)
 
 <img src="https://raw.githubusercontent.com/Stehfyn/SwampCooler2560/c500ab42bb0f8f0503ba2b2f96ac1333bf7baf19/assets/demo.png">
 
@@ -42,7 +42,7 @@ SwampCooler2560 sc;
 ```
 or a custom one:
 ```cpp
-SwampCooler2560 sc = SwampCooler2560PinMap(
+SwampCooler2560 sc (SwampCooler2560PinMap(
         7,   //power switch
 
         A0,  //joystick right delta
@@ -71,7 +71,7 @@ SwampCooler2560 sc = SwampCooler2560PinMap(
         SCL,      //I2C serial clock (SCL)
 
         2,        //fan motor (DC driven)
-        13 );     //servo motor (AC driven)
+        13 ));     //servo motor (AC driven)
 ```
 and finally:
 ```cpp
