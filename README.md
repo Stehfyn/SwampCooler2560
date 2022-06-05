@@ -4,7 +4,7 @@
 
 A state-managed swamp cooler targeting the [ATmega2560](https://docs.arduino.cc/hardware/mega-2560)
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Stehfyn/SwampCooler2560/assets/demo.png">
 
 ## cpe301 final project
 
@@ -62,7 +62,7 @@ SwampCooler2560 sc = SwampCooler2560PinMap(
         SCL,      //I2C serial clock (SCL)
 
         2,        //fan motor (DC driven)
-        13,       //servo motor (AC driven)
+        13 );     //servo motor (AC driven)
 ```
 and finally:
 ```cpp
