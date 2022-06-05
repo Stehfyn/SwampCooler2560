@@ -1,8 +1,8 @@
 #pragma once
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+#include "arduino.h"
 #else
-	#include "WProgram.h"
+#include "WProgram.h"
 #endif
 
 class Peripheral
@@ -11,7 +11,7 @@ public:
 	~Peripheral() {}
 
 protected:
-	Peripheral(const uint8_t _pin, int _mode);
+	Peripheral( const uint8_t _pin, int _mode );
 
 	uint8_t           m_bit;
 	uint8_t           m_pin;
