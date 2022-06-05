@@ -6,9 +6,7 @@ A state-managed swamp cooler targeting the [ATmega2560](https://docs.arduino.cc/
 
 <img src="https://raw.githubusercontent.com/Stehfyn/SwampCooler2560/c500ab42bb0f8f0503ba2b2f96ac1333bf7baf19/assets/demo.png">
 
-## cpe301 final project
 
-As a semester final project for embedded systems design, 
 </div>
 
 ## Install
@@ -18,11 +16,22 @@ git clone https://github.com/Stehfyn/SwampCooler2560
 ```
 Then execute:
 ```bash
-./SwampCooler2560/scripts/install.sh [path-to-your-arduino-library-folder]
+./SwampCooler2560/scripts/install.sh [path-to-your-arduino-libraries-folder]
 ```
+## External Dependencies
+<p>
+<a href="https://github.com/arduino-libraries/LiquidCrystal" style="text-decoration-line: none;">LiquidCrystal</a>
+
+<a href="https://github.com/winlinvip/SimpleDHT" style="text-decoration-line: none;">SimpleDHT</a>
+
+<a href="https://github.com/NorthernWidget/DS3231" style="text-decoration-line: none;">DS3231</a>
+
+<a href="https://github.com/PalladinoMarco/AlignedJoystick" style="text-decoration-line: none;">AlignedJoystick</a>
+</p>
+
 ## Usage
 
-After completing the install steps, simply include the main header:
+After installing SwampCooler2560 and its external dependencies, simply include the main header:
 
 ```cpp
 #include <SwampCooler2560>
