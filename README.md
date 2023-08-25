@@ -8,16 +8,6 @@ A state-managed swamp cooler targeting the [Arduino Mega 2560](https://docs.ardu
 
 
 </div>
-
-## Install
-First, grab the repo:
-```bash
-git clone https://github.com/Stehfyn/SwampCooler2560
-```
-Then execute:
-```bash
-./SwampCooler2560/scripts/install.sh [path-to-your-arduino-libraries-folder]
-```
 ## External Dependencies
 <p>
 <a href="https://github.com/arduino-libraries/LiquidCrystal" style="text-decoration-line: none;">LiquidCrystal</a>
