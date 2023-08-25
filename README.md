@@ -8,6 +8,7 @@ A state-managed swamp cooler targeting the [Arduino Mega 2560](https://docs.ardu
 
 
 </div>
+
 ## External Dependencies
 <p>
 <a href="https://github.com/arduino-libraries/LiquidCrystal" style="text-decoration-line: none;">LiquidCrystal</a>
